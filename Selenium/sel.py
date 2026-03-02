@@ -381,7 +381,7 @@ def schedule_run():
             result = run_course_selection()
             if result is True:
                 print("run_course_selection 执行成功，等待10分钟后再执行")
-                time.sleep(15*60)  # 15分钟
+                time.sleep(12000000*60)  # 15分钟
             else:
                 print("run_course_selection 未正确返回，立即重试")
         except Exception as e:
