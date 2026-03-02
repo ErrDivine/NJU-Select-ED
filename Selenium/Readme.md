@@ -21,7 +21,12 @@ winget install --id Google.Chrome -e
 winget list Google.Chrome
 winget upgrade --id Google.Chrome -e
 ```
+对于Mac
+```bash
+brew install --cask google-chrome
+```
 - 右键selenium文件夹选择在终端打开，然后在终端或命令行中运行以下代码
+
 Windows:
 ```bat
 py -m pip install -r requirements.txt
